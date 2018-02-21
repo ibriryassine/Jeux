@@ -43,17 +43,10 @@ public class connexion extends HttpServlet {
         
         /* Récupération de la session depuis la requête */
         HttpSession session = request.getSession();
-        
-
-
         /**
-
          * Si aucune erreur de validation n'a eu lieu, alors ajout du bean
-
          * Utilisateur à la session, sinon suppression du bean de la session.
-
          */
-       
 
         if ( form.getErreur().isEmpty() ) {
 
